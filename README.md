@@ -21,7 +21,7 @@ python main.py
 | B | | | `games/hangman.py` (행맨) |
 | C | | | `games/baseball.py` (숫자 야구) |
 | D | | | `games/rps.py` (가위바위보) |
-| E | | | `games/tictactoe.py` (틱택토) |
+| E | 김준우 | wnsdn03651 | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록
 
