@@ -16,7 +16,11 @@ GAMES = {
 
 
 def show_menu() -> None:
-    print("\n===== Game Hub =====")
+    from utils import format_title
+
+    print("\n" + format_title("Game Hub"))
+    if not GAMES:
+        print("아직 등록된 게임이 없습니다.")
     for key, game in GAMES.items():
         print(f"{key}. {game.GAME_NAME}")
     print("0. 종료")
