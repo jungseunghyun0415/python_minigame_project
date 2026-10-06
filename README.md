@@ -20,7 +20,7 @@ python main.py
 | A | | | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
 | B | | | `games/hangman.py` (행맨) |
 | C | | | `games/baseball.py` (숫자 야구) |
-| D | | | `games/rps.py` (가위바위보) |
+| D | 로즈 와루구루 | rozie7 | `games/rps.py` (가위바위보) |
 | E | | | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록
