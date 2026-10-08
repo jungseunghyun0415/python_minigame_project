@@ -2,7 +2,7 @@
 
 # ── [충돌 지점 ①] 자기 게임의 import 줄 맨 앞 '# '를 지워 주세요 ──
 # from games import hangman
- from games import baseball
+from games import baseball
 # from games import rps
 # from games import tictactoe
 
