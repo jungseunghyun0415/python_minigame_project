@@ -9,7 +9,7 @@ from games import baseball
 # ── [충돌 지점 ②] 자기 게임의 메뉴 줄 맨 앞 '# '를 지워 주세요 ──
 GAMES = {
     # "1": hangman,
-     "2": baseball,
+    "2": baseball,
     # "3": rps,
     # "4": tictactoe,
 }
