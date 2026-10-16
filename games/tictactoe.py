@@ -1,5 +1,6 @@
 GAME_NAME = "틱택토"
 
+
 def check_winner(board: list[list[str]]) -> str | None:
     for i in range(3):
         if board[i][0] == board[i][1] == board[i][2] != " ":
@@ -12,8 +13,10 @@ def check_winner(board: list[list[str]]) -> str | None:
         return board[0][2]
     return None
 
+
 def is_full(board: list[list[str]]) -> bool:
     return all(cell != " " for row in board for cell in row)
+
 
 def print_board(board: list[list[str]]) -> None:
     print()
@@ -23,6 +26,7 @@ def print_board(board: list[list[str]]) -> None:
             print("---+---+---")
     print()
 
+
 def play() -> None:
     board = [[" " for _ in range(3)] for _ in range(3)]
     current_player = "X"
@@ -31,8 +35,11 @@ def play() -> None:
     while True:
         print_board(board)
         try:
-            user_input = input(f"[{current_player}] 위치 입력 (행 열, 예: 1 2) 또는 q(종료): ").strip()
-            if user_input.lower() == "q": return
+            user_input = input(
+                f"[{current_player}] 위치 입력 (행 열, 예: 1 2) 또는 q(종료): "
+            ).strip()
+            if user_input.lower() == "q":
+                return
             r, c = map(int, user_input.split())
             r, c = r - 1, c - 1
             if not (0 <= r < 3 and 0 <= c < 3) or board[r][c] != " ":

@@ -11,7 +11,7 @@ GAMES = {
     # "1": hangman,
     # "2": baseball,
     # "3": rps,
-     "4": tictactoe,
+    "4": tictactoe,
 }
 
 
