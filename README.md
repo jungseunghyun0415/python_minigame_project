@@ -19,6 +19,9 @@ python main.py
 | B | | | `games/hangman.py` (행맨) |
 | C | 박채민|huboisbingsin| `games/baseball.py` (숫자 야구) |
 | D | | | `games/rps.py` (가위바위보) |
+| B |박채민|huboisbingsin| `games/hangman.py` (행맨) |
+| C | | | `games/baseball.py` (숫자 야구) |
+| D | 로즈 와루구루 | rozie7 | `games/rps.py` (가위바위보) |
 | E | | | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록

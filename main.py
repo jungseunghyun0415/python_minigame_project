@@ -4,12 +4,16 @@
 # from games import hangman
 from games import baseball
 # from games import rps
+# from games import baseball
+from games import rps
 # from games import tictactoe
 
 GAMES = {
     # "1": hangman,
     "2": baseball,
     # "3": rps,
+    # "2": baseball,
+    "3": rps,
     # "4": tictactoe,
 }
 
