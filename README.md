@@ -18,10 +18,10 @@ python main.py
 | 역할 | 이름 | GitHub ID | 담당 |
 |---|---|---|---|
 | A | 정승현 | jungseunghyun0415 | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
-| B | 박채민, | `games/hangman.py` (행맨) |
-| C | 박채민, | `games/baseball.py` (숫자 야구) |
-| D | 로즈 와루구 | `games/rps.py` (가위바위보) |
-| E | 김준우 | `games/tictactoe.py` (틱택토) |
+| B | 박채민 | huboisbingsin | `games/hangman.py` (행맨) |
+| C | 박채민 | huboisbingsin | `games/baseball.py` (숫자 야구) |
+| D | 로즈 와루구 | (본인 GitHub ID) | `games/rps.py` (가위바위보) |
+| E | 김준우 | wnsdn03651 | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록
 
