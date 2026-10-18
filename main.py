@@ -4,7 +4,7 @@
 # from games import hangman
 # from games import baseball
 from games import rps
-#from games import tictactoe
+# from games import tictactoe
 
 # ── [충돌 지점 ②] 자기 게임의 메뉴 줄 맨 앞 '# '를 지워 주세요 ──
 GAMES = {
