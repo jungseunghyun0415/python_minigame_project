@@ -23,3 +23,8 @@ def ask_yes_no(prompt: str) -> bool:
         if raw in ("n", "no"):
             return False
         print("y 또는 n 으로 입력하세요.")
+
+
+def format_title(title: str) -> str:
+    """게임 제목을 보기 좋은 머리글 문자열로 만든다."""
+    return f"=== {title} ==="
